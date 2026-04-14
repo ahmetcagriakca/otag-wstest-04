@@ -2,6 +2,6 @@ def modulo_sum(a, b, m):
     return (a + b) % m
 
 
-assert modulo_sum(7, 8, 5) == 0
-assert modulo_sum(14, 9, 6) == 5
-assert modulo_sum(1, 1, 3) == 2
+assert modulo_sum(17, 44, 15) == 1
+assert modulo_sum(-5, 12, 4) == 3
+assert modulo_sum(100, 200, 7) == 6
