@@ -3,7 +3,7 @@ def modulo_sum(a, b, m):
 
 
 if __name__ == "__main__":
-    assert modulo_sum(2, 3, 4) == 1
-    assert modulo_sum(10, 5, 7) == 1
-    assert modulo_sum(9, 6, 4) == 3
+    assert modulo_sum(7, 8, 5) == 0
+    assert modulo_sum(14, 11, 9) == 7
+    assert modulo_sum(-3, 10, 4) == 3
     print("All assertions passed.")
